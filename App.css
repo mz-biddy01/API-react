@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-list > li > a {
+  background-color: dodgerblue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.nav-list > li > a:hover {
+  background-color: grey; /* Green */
+  color: white;
+}
+
+h1 {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.searches-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.search-detail {
+  display: flex;
+  height: 80vh;
+  width: 50vw;
+}
+
+.search-list {
+  padding: 10px;
+  height: 75vh;
+  width: 80vw;
+  overflow: scroll;
+}
+
+.search-list > ul {
+  list-style: none;
+}
+
+.search-list > ul > li {
+  border-style: groove;
+  padding: 10px;
+  background: white;
+  transition-duration: 500ms;
+  transition-property: background, font-size;
+}
+.search-list > ul > li:hover {
+  background: gray;
+  font-size: 1.2em;
+}
+
+
